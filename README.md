@@ -1,10 +1,18 @@
 ## FLUX tiled upscaler
 A minimal tiled-image upscaler that uses [FLUX1.0-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) and [ControlNet-Union](https://huggingface.co/Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro). This upscaler uses both tile and low quality controlnets to upscale images.
 
-## Example Results
-| Original | Upscaled |
-|----------|----------|
-| ![Original Portrait](https://github.com/neuralwork/flux-tiled-upscaler/blob/main/examples/portrait.jpeg) | ![Upscaled Portrait](https://github.com/neuralwork/flux-tiled-upscaler/blob/main/examples/outputs/output_portrait.png) |
+<div align="center">
+  <table>
+    <tr>
+      <th>Original</th>
+      <th>Upscaled</th>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/neuralwork/flux-tiled-upscaler/blob/main/examples/portrait.jpeg" width="400" alt="Original Portrait"></td>
+      <td><img src="https://github.com/neuralwork/flux-tiled-upscaler/blob/main/examples/outputs/output_portrait.png" width="400" alt="Upscaled Portrait"></td>
+    </tr>
+  </table>
+</div>
 
 ## Installation
 Tested with python 3.10, torch 2.1 and CUDA 11.8.
